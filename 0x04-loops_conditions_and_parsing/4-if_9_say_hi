@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# uses while loop to print "Best School" 10 times
+# after 9th one type "Hi" on a new line
+
+i=1
+while ((i <= 10))
+do
+	echo 'Best School'
+    if ((i == 9))
+    then
+        echo 'Hi'
+    fi
+	((i++))
+done
