@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# uses for loop to print the content of the current directory:
+# prints in a list format where only the part after the first dash shows
+
+for i in *;
+do
+    echo "$i" | cut -d'-' -f2
+done
