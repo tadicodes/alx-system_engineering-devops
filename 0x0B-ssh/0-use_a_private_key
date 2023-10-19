@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# Script uses a private key
-
-ssh -i ~/.ssh/school ubuntu@18.235.234.69
