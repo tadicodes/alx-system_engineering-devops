@@ -4,10 +4,12 @@
 > by *Tadiwanashe Shongedza*
 
 ## Issue Summary
+![issue summary](https://github.com/tadicodes/alx-system_engineering-devops/assets/121963464/34c12cb4-088b-492e-9352-88ec3fc1890b)
 ---
-In the afternoon of 15-07-2024 from 07:43 to 08:35 (Timezone: GMT+2), the ALX School Portal experienced a critical outage, rendering most user requests with `500 errors`. At its peak, 100% of users were unable to access essential features such as course materials and assignment submissions. The root cause was identified as a misconfiguration in the authentication service, leading to failed user authentication attempts and subsequent service disruption.
+On the morning of 15-07-2024 from 07:43 to 08:35 (Timezone: GMT+2), the ALX School Portal experienced a critical outage, rendering most user requests with `500 error`. At its peak, 100% of users were unable to access essential features such as course materials and assignment submissions. The root cause was identified as a misconfiguration in the authentication service, leading to failed user authentication attempts and subsequent service disruption.
 
 ## Timeline
+![timeline](https://github.com/tadicodes/alx-system_engineering-devops/assets/121963464/b5d6e31e-3a29-4624-9fc2-e0a6ff74bed9)
 ---
 **Timezone:** [GMT+2]
 **Outage Duration:** [07:43 - 08:35]
@@ -22,10 +24,12 @@ In the afternoon of 15-07-2024 from 07:43 to 08:35 (Timezone: GMT+2), the ALX Sc
 **Service Restored:** [08:35]
 
 ## Root cause
+![root cause](https://github.com/tadicodes/alx-system_engineering-devops/assets/121963464/53276f7c-2b85-42e4-93ba-0c51d56750af)
 ---
-The root cause of the outage was a misconfiguration in the authentication service. Specifically, an incorrect setting in the authentication module prevented successful user authentication, leading to a cascade of failed requests and `500 errors`. The misconfiguration was likely introduced during recent updates to the portal's authentication system but remained undetected until the incident occurred.
+The root cause of the outage was a misconfiguration in the authentication service. Specifically, an incorrect setting in the authentication module prevented successful user authentication, leading to a cascade of failed requests and `500 error`. The misconfiguration was likely introduced during recent updates to the portal's authentication system but remained undetected until the incident occurred.
 
 ## Resolution and Recovery
+![resolution](https://github.com/tadicodes/alx-system_engineering-devops/assets/121963464/bcb4d0c4-60d6-465f-8a76-e187ec371bf2)
 ---
 - [08:16]: Upon identification of the misconfiguration, the authentication service was immediately corrected to allow for successful user authentication.
 - [08:30]: Affected services were restarted to apply the configuration changes.
